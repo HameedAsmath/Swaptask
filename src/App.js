@@ -20,10 +20,13 @@ function App() {
         console.log(accounts);
       } catch (error) {
         console.log('Error connecting....');
+
       }
     }
     else {
+      
       console.log('Meta Mask not detected')
+
     }
   }
   return (
